@@ -5,7 +5,7 @@ run "if uname | grep -q 'Darwin'; then pgrep spring | xargs kill -9; fi"
 run 'rm Gemfile'
 file 'Gemfile', <<-RUBY
 source 'https://rubygems.org'
-ruby '3.0.0'
+ruby '2.7.2'
 gem 'rails', '~> 6.1.0'
 # Core
 gem 'bootsnap', '>= 1.4.4', require: false
