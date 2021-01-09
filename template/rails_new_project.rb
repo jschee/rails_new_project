@@ -7,7 +7,7 @@ file 'Gemfile', <<-RUBY
 source 'https://rubygems.org'
 ruby '3.0.0'
 gem 'rails', '~> 6.1.0'
-gem 'thor', github: "erikhuda/thor", branch: "master"
+gem 'thor', git: 'https://github.com/erikhuda/thor', branch: 'master'
 # Core
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'pg', '>= 0.18', '< 2.0'
