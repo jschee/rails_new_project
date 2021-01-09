@@ -212,10 +212,10 @@ module.exports = {
   run 'mkdir app/javascript/css'
   file 'app/javascript/css/application.scss'
   file 'app/javascript/css/custom.scss'
-  run 'curl -L https://raw.githubusercontent.com/jschee/rails_new_project/main/template/application.scss > app/javascript/css/application.scss'
+  run 'curl -L https://raw.githubusercontent.com/jschee/rails_new_project/master/template/application.scss > app/javascript/css/application.scss'
 
   run 'mkdir app/javascript/images'
-  run 'curl -L https://raw.githubusercontent.com/jschee/rails_new_project/main/template/bolt.png > app/javascript/images/bolt.png'
+  run 'curl -L https://raw.githubusercontent.com/jschee/rails_new_project/master/template/bolt.png > app/javascript/images/bolt.png'
 
   # Git
   ########################################
